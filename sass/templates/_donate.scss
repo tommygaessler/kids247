@@ -1,0 +1,98 @@
+body.page-template-donate
+{
+
+	h1
+	{
+		padding-top: 130px;
+		margin: 0;
+		text-align: center;
+		color: white;
+		font-size: 80px;
+		font-family: 'Kaushan Script', cursive;
+	}
+
+	.hero
+	{
+		min-height: 450px;
+		@include background-image(scroll);
+	}
+
+	#primary
+	{
+
+		h2
+		{
+			text-align: center;
+		}
+
+		.one-third
+		{
+			text-align: center;
+
+			@include breakpoint (tablet)
+			{
+				width: 100%;
+			}
+		}
+
+		p a
+		{
+			font-size: 18px !important;
+		}
+
+		p.p1
+		{
+			text-align: center;
+		}
+
+		#custom
+		{
+			@include breakpoint(phone)
+			{
+				text-align: center;
+				margin: auto;
+				display: block;
+				// width: 100%;
+			}
+
+			button
+			{
+				
+			}
+		}
+
+		select
+		{
+			text-align: center;
+			margin: 0 !important;
+			display: inline;
+		}
+
+		#preset
+		{
+			@include breakpoint(phone)
+			{
+				text-align: center;
+				margin: auto;
+				display: block;
+				// width: 100%;
+			}
+
+			select#sc_cf_select_1.sc-form-control.sc-cf-dropdown.sc-cf-amount
+			{
+				margin: 0 !important;
+				display: inline;
+			}
+
+			button
+			{
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	#secondary
+	{
+		display: none;
+	}
+}

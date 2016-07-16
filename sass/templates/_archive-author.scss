@@ -1,0 +1,17 @@
+body.archive.author
+{
+	#primary
+	{
+		// @extend.row;
+		a
+		{
+			color: $blue;
+			text-decoration: none;
+		}
+	}
+
+	#secondary
+	{
+		display: none;
+	}
+}

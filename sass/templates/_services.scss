@@ -1,0 +1,71 @@
+h1.programs
+{
+	color: #000;
+	text-align: center;
+}
+
+.services
+{
+	background-image: url(images/congruent_pentagon.png);
+	padding-bottom: 25px;
+	// box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, .2);
+
+	.servicerow
+	{
+
+		width: 90%;
+	  max-width: 1000px;
+	  margin: auto;
+	  @include clearfix;
+
+	.column
+	{
+		
+
+		&:last-of-type
+		{
+			margin-bottom: 0;
+		}
+
+		
+
+			position: relative;
+
+
+			img 
+			{
+				width: 100%;
+				display: block;
+				margin: auto;
+				box-shadow: 0 0 5px 1px rgba(0,0,0,.2);
+				margin-bottom: 20px;
+
+			}
+
+			h3
+			{
+				position: absolute; 
+			   	top: 5px;
+			   	left: 0; 
+			   	width: 100%;
+				color: white;
+				text-align: center;
+				font-family: 'Kaushan Script', cursive;
+				
+			}
+		
+
+		
+
+		a 
+		{
+			text-decoration: none;
+			button
+			{
+				display: block;
+				margin: auto;
+			}
+		}
+		}
+	}
+}

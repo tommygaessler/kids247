@@ -1,0 +1,210 @@
+body.home
+{
+	#masthead
+	{
+		.row
+		{
+			margin-bottom: 0;
+		}
+	}
+	.hero
+	{
+		// height: 50vh;
+		// padding: 25vh 0;
+		text-align: center;
+		@include background-image(scroll);
+	}
+	
+	main
+	{
+		.hero
+		{
+			h1
+			{
+				color: white;
+				text-transform: uppercase;
+			}
+			p 
+			{
+				color: white;
+			}
+		}
+
+		p
+		{
+			color: black;
+		}
+
+		.mission
+		{
+			h1
+			{
+				// font-family: 'Courgette', cursive;
+				font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+				padding: 0;
+				color: $blue;
+				margin-bottom: 20px;
+				margin-top: 20px;
+			}
+
+			// box-shadow: 0 0 5px 1px rgba(0,0,0,.2);
+		}
+	}
+
+	.stories
+	{
+		text-align: center;
+		h2
+		{
+			// font-family: 'Special Elite', cursive;
+			font-size: 35px;
+		}
+
+		a.kidstories
+		{
+			text-align: center;
+			text-decoration: none;
+			color: $blue;
+			font-size: 35px;
+		}
+
+		a
+		{
+
+			h3
+			{
+				color: white;
+				background: rgba(160,160,160, 0.6);
+				display: inline-block;
+				margin-top: 20px;
+				padding: 10px;
+				box-shadow: 0 0 5px 1px rgba(0,0,0,.2);
+			}
+
+			p
+			{
+				padding: 10px;
+				color: white;
+				margin-top: 140px;
+				margin-left: 10px;
+				margin-right: 10px;
+				background: rgba(160,160,160, 0.6);
+				display: inline-block;
+				box-shadow: 0 0 5px 1px rgba(0,0,0,.2);
+			}
+		}
+
+		.column:last-of-type
+		{
+			a
+			{
+				pointer-events: none;
+	   			cursor: default;
+
+	   			p
+	   			{
+	   				margin-top: 0;
+	   			}
+			}
+		}
+	}
+
+	p.dads247
+		{
+			text-align: center;
+			font-size: 30px;
+
+			a
+			{
+				text-decoration: none;
+				color: $blue;
+			}
+		}
+
+	header, footer
+	{
+		h1, p
+		{
+			color: white;
+		}
+	}
+
+	.recent-blog
+	{
+
+		text-align: center;
+		background: $salmon;
+		margin-top: 20px;
+		padding-bottom: 20px;
+		padding-top: 1px;
+
+
+		h2
+		{
+			color: $white;
+		}
+
+		.blog-post
+		{
+			padding: 15px 25px;
+			background: white;
+			text-align: left;
+			margin-bottom: 15px;
+			box-shadow: 0 1px 4px 0 $gray;
+			@include clearfix;
+
+			h3
+			{
+				border-bottom: 4px solid $blue;
+				padding-bottom: 7px;
+				margin-bottom: 7px;
+			}
+
+			a 
+			{
+				text-decoration: none;
+				color: $blue;
+				&:hover
+				{
+					color: $pink;
+				}
+			}
+
+			.meta
+			{
+
+			}
+
+			p 
+			{
+
+			}
+
+			.read-more
+			{
+				float: right;
+			}
+		}
+
+		.view-more
+		{
+			text-decoration: none;
+			color: $white;
+			&:hover
+			{
+				color: $black;
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,52 @@
+body.page-template-community
+{
+	h1
+	{
+		padding-top: 100px;
+		margin: 0;
+		text-align: center;
+		font-size: 50px;
+		color: white;
+		// font-family: 'Special Elite', cursive;
+
+		@include breakpoint(phone)
+		{
+			padding-top: 30px;
+		}
+	}
+
+	.hero
+	{
+		@include background-image(scroll);
+		min-height: 450px;
+	}
+
+	#content
+	{
+
+		#primary
+		{
+
+
+			.content-column.one_half
+			{
+				// background-image: url('http://kids247.org/wp-content/uploads/2016/03/photo-1459499362902-55a20553e082.jpg');
+			}
+
+			.content-column.one_half.last_column
+			{
+				background-image: url('');
+			}
+
+			text-align: center;
+			a
+			{
+
+				text-decoration: none;
+				color: $blue;
+				font-size: 30px;
+			}
+			
+		}
+	}
+}

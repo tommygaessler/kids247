@@ -1,0 +1,55 @@
+/*
+Theme Name: Kids247 Theme
+Theme URI: http://underscores.me/
+Author: Tommy Gaessler
+Author URI: http://tommygaessler.com
+Description: Theme description!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kids247
+Tags:
+*/
+
+@import 'colors';
+@import 'mixins';
+@import 'breakpoints';
+
+@import 'grid';
+@import 'shortcodes';
+
+@import 'defualt';
+
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/sidebar';
+@import 'modules/stories';
+
+@import 'templates/home';
+
+@import 'templates/singleparentinstitute';
+@import 'templates/singleparentsupport';
+@import 'templates/highfivegroup';
+@import 'templates/childrensbillofrights';
+@import 'templates/divorceinformed';
+@import 'templates/communitycafe';
+
+
+@import 'templates/team';
+@import 'templates/loveinaction';
+@import 'templates/parents';
+@import 'templates/community';
+@import 'templates/calendar';
+@import 'templates/children';
+@import 'templates/about';
+@import 'templates/contact';
+@import 'templates/services';
+@import 'templates/blog';
+@import 'templates/page';
+@import 'templates/donate';
+@import 'templates/archive-stories';
+@import 'templates/archive-author';
+@import 'templates/archive-programs';
+@import 'templates/single-stories';
+@import 'templates/single-post';
+@import 'templates/archive-category';

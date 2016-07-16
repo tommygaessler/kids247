@@ -1,0 +1,28 @@
+body.archive.category
+{
+	#content
+	{
+		@extend .row;
+
+		#primary
+		{
+			#main 
+			{
+				article
+				{
+					background: white;
+					a 
+					{
+						color: $blue;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+
+		#secondary
+		{
+			display: none;
+		}
+	}
+}

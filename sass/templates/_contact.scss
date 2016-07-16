@@ -1,0 +1,94 @@
+body.page-template-contact
+{
+
+	h1
+	{
+		padding-top: 15px;
+		margin: 0;
+		text-align: center;
+		color: white;
+		font-family: 'Kaushan Script', cursive;
+
+		@include breakpoint(phone)
+		{
+			padding-top: 40px;
+		}
+	}
+
+	.hero
+	{
+		min-height: 450px;
+		@include background-image(scroll);
+	}
+
+	#content
+	{
+		#primary
+		{
+			h1
+			{
+				text-align: center;
+			}
+
+			input
+			{
+				width: 50%;
+				padding: 10px;
+				margin: auto;
+				display: block;
+				font-size: 16px;
+
+				@include breakpoint(phone)
+				{
+					width: 100%;
+				}
+			}
+
+			#ninja_forms_form_9_all_fields_wrap
+			{
+				text-align: center;
+
+				.ninja-forms-required-items
+				{
+					display: none;
+				}
+			}
+
+			textarea
+			{
+				resize: none;
+				width: 50%;
+				height: 100px;
+				padding: 10px;
+				margin: auto;
+				display: block;
+				font-size: 16px;
+
+				@include breakpoint(phone)
+				{
+					width: 100%;
+				}
+			}
+
+			input.button
+			{
+				display: block;
+				width: 50%;
+				margin: auto;
+				padding: 10px;
+				font-size: 16px;
+
+				@include breakpoint(phone)
+				{
+					width: 100%;
+				}
+			}
+
+			iframe
+			{
+				width: 100%;
+				height: 300px;
+			}
+		}
+	}
+}

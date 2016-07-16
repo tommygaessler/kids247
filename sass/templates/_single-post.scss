@@ -1,0 +1,49 @@
+body.single-post
+{
+	#content
+	{
+		@extend.row;
+
+		#primary
+		{
+			#comments
+			{
+				display: none;
+			}
+
+			.nav-next
+			{
+				float: right;
+			}
+
+			.nav-previous
+			{
+				float: left;
+			}
+		}
+
+		iframe
+			{
+				height: 20px;
+				margin: 20px;
+				margin-left: 0;
+			}
+
+			iframe.twitter-share-button
+			{
+				margin: 20px;
+				margin-left: 0;
+			}
+
+		a
+		{
+			color: $blue;
+			text-decoration: none;
+		}
+
+		#secondary
+		{
+			display: none;
+		}
+	}
+}

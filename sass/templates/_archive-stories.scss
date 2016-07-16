@@ -1,0 +1,101 @@
+body.post-type-archive-stories
+{
+	#content
+	{
+
+		background-color: #EEEEEE;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		#primary
+		{
+			
+			h1
+			{
+				// font-family: 'Special Elite', cursive;
+				// font-size: 45px;
+			}
+
+			// padding-top: 20px;
+			// padding-bottom: 20px;
+			background: white;
+
+
+			box-shadow: 0 0 5px 1px rgba(0,0,0,.2);
+			
+			padding-left: 20px;
+			padding-right: 20px;
+			
+
+			.stories
+			{
+				background: white;
+				padding: 0;
+			}
+
+			.page-header
+			{
+				text-align: center;
+			}
+
+			a
+			{
+				h3
+				{
+					color: white;
+					background: rgba(160,160,160, 0.6);
+					display: inline-block;
+					margin-top: 20px;
+					padding: 10px;
+					box-shadow: 0 0 5px 1px rgba(0,0,0,.2);
+				}
+
+				p
+				{
+					padding: 10px;
+					color: white;
+					margin-top: 140px;
+					margin-left: 10px;
+					margin-right: 10px;
+					background: rgba(160,160,160, 0.6);
+					display: inline-block;
+					box-shadow: 0 0 5px 1px rgba(0,0,0,.2);
+				}
+			}
+
+			.column:last-of-type
+			{
+				a
+				{
+					pointer-events: none;
+	   				cursor: default;
+
+	   				p
+	   				{
+	   					margin-top: 0;
+	   				}
+				}
+			}
+
+			
+
+			.posts-navigation
+			{
+				float: left;
+				width: 100%;
+				margin-top: 20px;
+				margin-bottom: 20px;
+
+				.nav-next
+				{
+					float: right;
+				}
+
+				.nav-previous
+				{
+					float: left;
+				}
+			}
+		}
+	}
+}

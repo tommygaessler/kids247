@@ -1,0 +1,84 @@
+/*----- Grid -----*/
+$gutter: 2%;
+
+.row
+{
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  @include clearfix;
+}
+
+.column 
+{
+  float: left;
+  margin-right: $gutter;
+
+
+  &.two-third 
+  {
+    width: (((100% / 3) * 2) - $gutter); //65%
+  }
+
+  &.one-half 
+  {
+    width: ((100% - ($gutter * 1)) / 2); //49%
+  }
+
+  &.one-third 
+  {
+    width: ((100% - ($gutter * 2)) / 3); //32%
+  }
+
+  &.one-fourth 
+  {
+    width: ((100% - ($gutter * 3)) / 4); //23.5%
+  }
+
+  &.one-fifth 
+  {
+    width: ((100% - ($gutter * 4)) / 5); //18.5%
+  }
+
+  &:last-of-type 
+  {
+    margin-right: 0;
+  }
+
+  @include breakpoint(phone) {
+
+    width: 100% !important;
+    margin-right: 0;
+  }
+}
+
+.gallery
+{
+  .column
+  {
+    margin-bottom: 15px;
+    &.two-third
+    {
+
+    }
+    &.one-half:nth-child(2n + 1)
+    {
+      margin-right: 0;
+    }
+    &.one-third:nth-child(3n + 1)
+    {
+      margin-right: 0;
+    }
+    &.one-fourth
+    {
+      margin-right: 0;
+    }
+    &.one-fifth
+    {
+      
+    }
+
+
+  }
+}
+

@@ -1,0 +1,30 @@
+<!-- Begin Blog -->
+			<div class="recent-blog">
+			    <h2 class="blog-headline">Blog</h2>
+
+			    <div class="row">
+
+			    <?php
+			        $args = array( 
+			            'post_type' => 'post',
+			            'posts_per_page' => 3
+			        );
+			        $loop = new WP_Query( $args );
+			        while ( $loop->have_posts() ) : $loop->the_post();
+			    ?>
+
+			        <div class="blog-post">
+			            <h3><?php the_title(); ?></h3>
+			            <div class="meta"><?php kids247_posted_on(); ?></div> <!-- Don't forget to change the slug -->
+			            <p><?php the_excerpt(); ?></p>
+			            <a class="read-more" href="<?php the_permalink(); ?>">Read More ➞</a>
+			        </div>
+
+			    <?php endwhile; ?>
+			    <?php wp_reset_postdata(); ?>
+
+			    </div>
+
+			    <a class="view-more" href="">View More ➞</a>
+			</div>
+			<!-- End Blog -->

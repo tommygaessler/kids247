@@ -1,0 +1,49 @@
+body.calp-calendar
+{
+	#content
+	{
+
+		#primary
+		{
+			@extend .row;
+
+			h1
+			{
+				text-align: center;
+			}
+
+			ul.calp-view-tabs
+			{
+				text-align: center;
+				display: block;
+				margin: auto !important;
+				padding-left: 0;
+			}
+
+			.calp-filter-selector-container
+			{
+				display: none;
+			}
+
+			#calp-fullscreen-button
+			{
+				display: none;
+			}
+
+			#calp-search-field
+			{
+				display: none;
+			}
+
+			#calp-searh-img
+			{
+				display: none;
+			}
+		}
+
+		#secondary
+		{
+			display: none;
+		}
+	}
+}
